@@ -16,7 +16,6 @@ class Grading {
 
     } elseif (81 <= $netScore) {
       $gradeLetter = 'B';
-
     } elseif (71 < $netScore) {
       $gradeLetter = 'B';
 
