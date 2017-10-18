@@ -8,10 +8,10 @@ class SimpleGrading {
         
         if ($score >= 81) {
             $gradeLetter = 'A';
-        } elseif ($score > 71) {
+        } elseif ($Score > 71) {
             $gradeLetter = 'B';
-        } elseif ($Score >= 61) {
-            $gradeLetter = 'C';
+        } elseif ($score >= 61) {
+            $gradeLetter = 'E';
         } elseif ($score >= 51) {
             $gradeLetter = 'D';
         } else {
