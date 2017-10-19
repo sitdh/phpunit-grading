@@ -30,10 +30,10 @@ class SimpleGradingTest extends TestCase {
         $simpleGrading = new SimpleGrading;
 
         // When
-        $grade = $simpleGrading->evaluate('1234567890', 40);
+        $grade = $simpleGrading->evaluate('1234567890', 75);
 
         // Then
-        $this->assertEquals("1234567890 => 'F'", $grade);
+        $this->assertEquals("1234567890 => 'B'", $grade);
     }
 
     /**
